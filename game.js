@@ -94,7 +94,7 @@ Sprite = function () {
 
   this.children = {};
 
-  this.color    = 'black';
+  this.color    = 'yellow';
   this.solid    = false;
   this.visible  = false;
   this.reap     = false;
