@@ -94,7 +94,7 @@ Sprite = function () {
 
   this.children = {};
 
-  this.color    = 'yellow';
+  this.color    = 'black';
   this.solid    = false;
   this.visible  = false;
   this.reap     = false;
@@ -724,6 +724,8 @@ Coin = function () {
               0, -5]);
 
   this.collidesWith = ["ship"];
+  this.color = 'black';
+  this.solid= true;
 
   this.newPosition = function () {
     this.x = Math.random() * Game.canvasWidth;
